@@ -1,0 +1,167 @@
+//background-image: url('https://i.pinimg.com/736x/2c/b3/49/2cb349de5ac27cdb5a192225aaebefac.jpg');
+
+<div style = "width: auto" class = "out">
+        <div class = "t">
+            <div class = "leftBar"></div>
+        </div>
+        <div class = "t">
+            <div class = "topnav">
+                <a class = "active" href = "#home">Home</a>
+                <a href = "#about">About</a>
+                <a href = "#projects">Projects</a>
+                <a href = "#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+
+     <div style = "width: auto" class = "out">
+        <div class = "left">
+        </div>
+        <div class = "right">
+
+            <div class = "topnav" id = "myTopnav">
+                <a class = "active" href = "#home">Home</a>
+                <a href = "#about">About</a>
+                <a href = "#projects">Projects</a>
+                <a href = "#contact">Contact</a>
+                <a href = "#comments" class = "split">Comments</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <h1>hi</h1>
+            <h2>hello</h2>
+        </div>
+    </div>
+
+
+
+    <div class = "centerPart">
+        <a>hi</a>
+    </div>
+
+
+    rgba(233, 235, 221, 0.777)
+
+//for originally center pert""
+    
+.centerPart{
+    
+    margin-top:0;
+    z-index:0;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    background-color: #35385d;
+    width:80%;
+    margin-right:10%;
+    margin-left:10%;
+
+}
+ background-image: url('https://i.pinimg.com/736x/d2/4b/79/d24b79874689eee30f90e1a72fd26811.jpg');
+
+
+
+//for cover and images
+        <div class="cover">
+
+            <div class="container">
+                <img src="images/me.jpg" class="profile" alt="Profile Picture">
+            </div>
+            
+            <div class="profileText">
+                <a>hello, my name is</a>
+                <h1 style="font-family:'PeaceBold';">Iris Bae</h1>
+                <a style = "font-size: 15px;">I am a sophomore at Purdue University studying Mahtematics.</a>
+            </div>
+
+        </div>
+
+        
+.cover {
+    
+    position:relative;
+    padding-top: 200px; /* 1:1 Aspect Ratio */
+    display:table;
+    background-color:#242533;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+
+
+.profileText{
+    width:30%;
+    border: 2px solid rgba(250, 235, 215, 0.336);
+    display:table-cell;
+    margin-right:35%;
+    margin-left:65%;
+    padding:4px;
+    text-align:left;
+    position:absolute;
+}
+.profile{
+  position: relative;
+  min-width:150px;
+  left:0;
+  top:0;
+  bottom: 0;
+  right: 25vw;
+  max-width:300px;
+  width:25vw;
+    border-radius:120px;
+    border: 5px solid antiquewhite;
+}
+
+.topnav {
+    top:0;
+    width:100%;
+    position: fixed;
+    text-align:center;
+    height: 32px;
+    margin-top:30px;
+    z-index:100;
+    transition:top 0.3s;
+    overflow: hidden;
+    
+}
+.topnav a {
+    
+    font-family:'PeaceBold';
+    
+    color: antiquewhite;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #b0b2b635;
+    
+    color: rgb(252, 240, 225);
+}
+.topnav a.comment {
+background-color: #5f8860a3;
+}
+.topnav a.comment:active {
+background-color: #466e47d1;
+}
+.topnav a.comment:hover {
+background-color: #466e4799;
+}
+.topnav a.active {
+    background-color: #88625f;
+    color: rgb(252, 240, 225);
+}
+
+
+
+
+    <div id="navbar" class="topnav">
+        <a class="active" href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#comments" class="comment">Comments</a>
+    </div>
