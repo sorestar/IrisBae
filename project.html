@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="projectstyle.css">
 
-    <link rel="icon" type="image/x-icon" href="images/icon3.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <script type="text/javascript" src="projectscript.js" defer></script>
 
@@ -29,6 +29,81 @@
 
     </div>
     <br><br><br>
+    
+<section class = "slider-container">
+    <div class = "sliderImages">
+        <div class = "slider-img">
+            <img src = "images/btm.png" alt = "1">
+            <h1>One</h1>
+            <div class = "details">
+                <h2>One details</h2>
+                <p>this is the first one</p>
+            </div>
+        </div>
+        <div class = "slider-img">
+            <img src = "images/btms.png" alt = "1">
+            <h1>Two</h1>
+            <div class = "details">
+                <h2>Two details</h2>
+                <p>this is the second one</p>
+            </div>
+        </div>
+        <div class = "slider-img">
+            <img src = "images/btmss.png" alt = "1">
+            <h1>Three</h1>
+            <div class = "details">
+                <h2>Three details</h2>
+                <p>this is the third one</p>
+            </div>
+        </div>
+
+        <div class = "slider-img active">
+            <img src = "images/btmss.png" alt = "1">
+            <h1>Three</h1>
+            <div class = "details">
+                <h2>Three details</h2>
+                <p>this is the third one</p>
+            </div>
+        </div>
+
+        <div class = "slider-img">
+            <img src = "images/btm.png" alt = "1">
+            <h1>One</h1>
+            <div class = "details">
+                <h2>One details</h2>
+                <p>this is the first one</p>
+            </div>
+        </div>
+        <div class = "slider-img">
+            <img src = "images/btms.png" alt = "1">
+            <h1>Two</h1>
+            <div class = "details">
+                <h2>Two details</h2>
+                <p>this is the second one</p>
+            </div>
+        </div>
+        <div class = "slider-img">
+            <img src = "images/btmss.png" alt = "1">
+            <h1>Three</h1>
+            <div class = "details">
+                <h2>Three details</h2>
+                <p>this is the third one</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src = "js/jQuery.js"></script>
+<script>
+    
+
+    jQuery(document).ready(function($){
+    $('.slider-img').on('click',function(){
+        $('.slider-img').removeClass('active');
+        $(this).addClass('active');
+    })
+});
+</script>
 
     <div id="contactTab">
         <h2 style="margin-left:20px;font-family:'Dandan'; color:#f9fae1;">
@@ -47,7 +122,7 @@
     <div id="navbar" class="topnav">
 
         <h1 style="text-align:center; ">
-            <img src="images/icon3.png" style="height:80px; width:80px;">
+            <img src="images/favicon.png" style="height:70px; width:70px;">
             <br> ⋆✴︎˚｡⋆
         </h1>
         <a class="active" href="index.html" id="about">About</a>
@@ -55,6 +130,7 @@
         <a href="#contactTab" id="contact">Contact</a>
         <a href="#commentTab" class="comment" id="comment">Comments</a>
     </div>
+
 </body>
 
 
