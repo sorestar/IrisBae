@@ -1,19 +1,16 @@
 
 
-
-
-
 (() => {
   const copyrightElement = document.getElementById("copyright");
   copyrightElement.innerHTML = "&copy;  " + new Date().getFullYear() + " https://sorestar.github.io/portfolio/ - All Rights Reserved.";
 })();
 
-/*
-
 const boundary = document.getElementById('boundary');
 const squares = [
-  { x: 200, y: 100, bg: '#CECBF6', fg: '#3C3489' },
-  { x: 200, y: 100, bg: '#9FE1CB', fg: '#085041' },
+  { x: 76, y: 710, bg: '#CECBF6', bgi: "url('images/coding.jpg')" , fg: '#3C3489' },
+{x: 60, y: 430, bg:'#dae19f', fg:'#595c31', bgi: "url('images/conference.jpg')" },
+  { x: 70, y: 550, bg: '#9FE1CB', fg: '#085041', bgi:"url('images/crochet.jpg')" },
+{x: 49, y: 680, bg:'#dae19f', fg:'#595c31', bgi:"url('images/gameideas.jpg')" },
 ];
 let selected = null;
 let dragging = false;
@@ -22,9 +19,11 @@ let dragOffsetX = 0, dragOffsetY = 0;
 squares.forEach(s => {
   const el = document.createElement('div');
   el.className = 'sq';
-  el.style.left = s.x + 'px';
+  el.style.left = s.x + 'vw';
   el.style.top = s.y + 'px';
-  el.style.background = s.bg;
+  //el.style.background = s.bg;
+  el.style.backgroundImage = s.bgi;
+  el.style.backgroundSize = "cover";
   el.style.color = s.fg;
 
   el.addEventListener('mousedown', (e) => {
@@ -69,5 +68,3 @@ document.addEventListener('mouseup', () => {
 boundary.addEventListener('mousedown', () => {
   if (selected) { selected.classList.remove('selected'); selected = null; }
 });
-
-*/
