@@ -1,7 +1,4 @@
-
-   console.log("finalscript loaded, pathname:", window.location.pathname);
-console.log("lang in storage:", localStorage.getItem("lang"));
-   function changeToKor() {
+function changeToKor() {
     const isProjects = window.location.pathname.includes("project");
         if (isProjects) {
 
