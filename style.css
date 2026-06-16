@@ -29,7 +29,7 @@
 }
 
 html {
-    background-image: url('images/btms.png');
+    background-image: url('images/btm.png');
     background-size: contain;
     background-color: #f9fae1;
     scroll-behavior: smooth;
@@ -40,12 +40,10 @@ html {
 
 .sq {
     position: absolute;
-    width: 180px;
-    height: 240px;
+    width: 240px;
+    height: 360px;
     cursor: grab;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .sq.selected {
@@ -59,7 +57,7 @@ html {
 }
 
 #before {
-    background-image: url('images/Screenshot\ 2026-06-10\ 155827.png');
+    background-image: url('images/transitionImage.png');
     background-size: cover;
     width: 100%;
     height: 100px;
@@ -88,20 +86,27 @@ html {
 
 #initial {
 
-    width: 100pw;
+    width: 100vw;
     background-image: url('images/halftoneSuit.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 1200px;
 }
-
+#imageTexts {
+    left:5vw;
+    width: 45vw;
+    top: -380px;
+    position: relative;
+    height: 450px;
+}
 body {
 
     background-image: url('images/btm.png');
     background-size: contain;
-    font-family: 'Peace';
+    font-family: 'Nanum';
     margin: 0;
     padding: 0;
+
     line-height: 1.6;
     width: 100%;
     height: 100%;
@@ -117,20 +122,36 @@ body {
     width: 43vw;
     height: fit-content;
     position: absolute;
-    top: 970px;
+    top: 1250px;
     right: 70px;
 
     border-radius: 25px;
 }
-
+#languageText {
+    position:relative;
+    top:-910px;
+    right:70px;
+}
 #contactImage {
-    left: 70px;
+    left: 50px;
     background-image: url('images/contactImage.png');
     background-size: contain;
-    width: 500px;
-    top: -450px;
-    position: absolute;
-    height: 450px;
+    width: 90%;
+    top: 190px;
+    height: 550px;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow:hidden;
+}
+
+#iconList {
+    left: 70px;
+    background-image: url('images/iconlist.png');
+    background-size: contain;
+    width: 330px;
+    top: 200px;
+    z-index:4;
+    height: 100px;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -169,36 +190,40 @@ body {
     font-size: 12px;
     color: #f9fae19b;
     margin-top: -3px;
+    overflow:hidden;
 }
 
 #contactTab {
     background-image: url('images/btmss.png');
     background-size: contain;
     width: 100%;
-    height: 130px;
+    height: 100px;
     text-align: center;
     justify-content: center;
-    position: absolute;
-    margin-top: 100px;
-}
-
-#boundary {
-
-    top: 100px;
     position: relative;
-    width: 80%;
-    height: 30%;
-    left: 10%;
-    right: 10%;
-    border: 1.5px solid #ccc;
-    background: #f5f5f5;
-    overflow: hidden;
-
+    margin-top: 220px;
+}
+#values {
+    top:2300px;
+    font-family: 'Dandan';
+    position:absolute;
+    color:#f9fae1;
+    font-size:50px;
+    left:66vw;
+}
+#boundary {
+    top: 2000px;
+    position: absolute;
+    width: 96vw;
+    height: 1300px;
+    left: 2vw;
+    right:2vw;
     user-select: none;
+    overflow:hidden;
 }
 
 .topnav {
-    top: 30px;
+    top: 80px;
 
     width: 100%;
     position: absolute;
@@ -220,15 +245,15 @@ body {
     text-align: center;
     padding: 1vw;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #korButton {
     border-color: rgb(198, 198, 198);
     background-image: url('https://i.pinimg.com/736x/09/5f/2d/095f2dcdebfd636cc6ba8705dfdc0f1e.jpg');
     background-size: contain;
-    width: 50px;
-    height: 36px;
+    width: 63px;
+    height: 46px;
     position: absolute;
     margin-top: 17px;
     margin-left: 3%;
@@ -239,9 +264,9 @@ body {
     background-color: rgb(54, 19, 19);
     background-image: url('https://i.pinimg.com/736x/13/bd/6d/13bd6d5502f1ec11784b7ed4a3956c0b.jpg');
     background-size: cover;
-    width: 50px;
+    width: 60px;
     margin-left: 8%;
-    height: 36px;
+    height: 46px;
     position: absolute;
 
     margin-top: 17px;
