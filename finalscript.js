@@ -11,7 +11,7 @@ function changeToKor() {
             about.innerHTML = '소개';
             project.innerHTML = '작업물';
             contact.innerHTML = '연락링크';
-
+ 
             comment.style.fontSize = "32px";
             about.style.fontSize = "32px";
             project.style.fontSize = "32px";
