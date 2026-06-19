@@ -12,7 +12,8 @@
     <script type="text/javascript" src="projectscript.js" defer></script>
 
     <script type="text/javascript" src="finalscript.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Iris Bae</title>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,6 +26,7 @@
             <img src="images/favicon.png" style="height:70px; width:70px; color:black;" alt="logo image">
             <br>
             ⋆✴︎˚｡⋆
+            <br><br>
         </h1>
         <a class="active" href="index.html" id="about">About</a>
         <a href="project.html" id="project">Projects</a>
@@ -46,54 +48,53 @@
             <span class="highlight-container"><span class="highlight">Complex Projects</span></span>
         </h1>
     </div>
-    <section class="slider-container">
-        <div class="sliderImages">
-            <div class="slider-img">
-                <div class = "images" id="lights" alt="LightsUp Conference">
-                <h1>LightsUp Conference</h1>
-                <div class="details">
-                    <p>LightsUp Conference</p>
-                </div>
-                </div>
-            </div>
-            <div class="slider-img">
-                <div class="images" id="shadow" alt="Shadow Project">
-                <h1>Shadow Project</h1>
-                <div class="details">
-                    <p>Shadow Project</p>
-                </div>
-                </div>
-            </div>
 
-            <div class="slider-img ">
-                <div class = "images" id="mask" alt="Mask Making Factory">
-                <h1>Mask Making Store</h1>
-                <div class="details">
-                    <p>Mask Making Store</p>
-                </div>
-                </div>
-            </div>
+    <div class="card-container-wrap">
+        <div class="card-container swiper">
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a class="card-link" id="conference" target="_blank"
+                            href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.XzWI-ioNK-VK2XBBLv44YQHaJ3%3Fpid%3DApi&f=1&ipt=9a1d0c9ba3222cdbd025238ab85c008243afb7196dfb55e0d8398d249f862978">
 
-            <div class="slider-img">
-                <div class = "images" id="cafeteria" alt="Cafeteria App">
-                <h1>Cafeteria App</h1>
-                <div class="details">
-                    <p>Cafeteria App</p>
-                </div>
-                </div>
-            </div>
-            <div class="slider-img">
-                <div class = "images" id="java" alt="Java Game">
-                <h1>Java Game</h1>
-                <div class="details">
-                    <p>Java Game</p>
-                </div>
-                </div>
+                            <img src="images/conferencephoto.jpg" alt="conference photo" class="card-image">
+                            <p class="badge" id="conference">Conference</p>
+                            <h2 class="card-title"> LightsUp Conference</h2>
+                        </a>
+
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a class="card-link" id="java">
+                            <img src="images/javagame.jpg" alt="java game image" class="card-image">
+                            <p class="badge" id="game">Game</p>
+                            <h2 class="card-title"> Java Game</h2>
+                        </a>
+
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a class="card-link" id="mask">
+                            <img src="images/maskgame.jpg" alt="Mask Making Game Photo" class="card-image">
+                            <p class="badge" id="game">Game</p>
+                            <h2 class="card-title"> Mask Making Store</h2>
+                        </a>
+
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a class="card-link" id="shadow">
+                            <img src="images/shadowcover.jpg" alt="Shadow Game Photo" class="card-image">
+                            <p class="badge" id="game">Game</p>
+                            <h2 class="card-title"> Shadow Game</h2>
+                        </a>
+
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
-    </section>
-
-
+    </div>
 
     <div id="contactTab">
         <h2 style="font-family:'Dandan'; color:#f9fae1;">
