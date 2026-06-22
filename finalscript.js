@@ -11,6 +11,7 @@ function changeToKor() {
         var conferenceTitle = document.getElementById('title-conference');
         var mask = document.getElementById('title-mask');
         var java = document.getElementById('title-java');
+        var shadow = document.getElementById('title-shadow');
         var article = document.getElementById('see-article');
 
 
@@ -43,6 +44,7 @@ function changeToKor() {
         conferenceTitle.innerHTML = 'LightsUp 학회';
         mask.innerHTML = '가면 제작 가게';
         java.innerHTML = '자바 게임';
+        shadow.innerHTML = 'Shadow 게임';
         article.innerHTML = '기사 보기';
 
 
@@ -68,7 +70,7 @@ function changeToKor() {
         var language = document.getElementById('language');
         var values = document.getElementById('values');
 
-        values.innerHTML = '제가 좋아하는 것들 !';
+        values.innerHTML = '중요하게 여기는 가치 !';
         language.innerHTML = '<br>✦한국어(모국어) ✦영어(능숙함) ✦일본어(기초)';
         languages.innerHTML = '언어';
 
