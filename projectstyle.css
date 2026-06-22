@@ -22,24 +22,44 @@
     font-family: 'Summer';
     src: url('fonts/HSBombaram3.0_Regular.ttf');
 }
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
 
 * {
     margin:0;
     padding:0;
     
 }
+.projectText{
+    text-align:center;
+    width:80vw;
+    height:30vw;
+    font-family:'Inter';
+    border: 3px solid black;
+    margin-left:10vw;
+    margin-top:40px;
+}
 .card-container-wrap {
     box-sizing:border-box;
-    margin-top:30px;
+    margin-top:45px;
+    padding-top:10px;
     display:flex;
+    padding-bottom:30px;
     height: fit-content;
+    
 }
 .card-wrapper {
-    max-width: 1200px;
+    height:400px;
+    max-width: 1100px;
+    padding-top:20px;
     padding: 3px 3px;
     overflow: hidden;
+    padding-bottom:60px;
 }
 .card-list{
+    margin-top:8px;
     width:100vw;
     height:fit-content;
     margin-left:3%;
@@ -48,9 +68,11 @@
 .card-link {
     width:270px;
     display:block;
-    background:#b7dbe4;
+    background:#e1edfa;
     padding:21px;
     border-radius: 12px;
+    border: 3px solid rgba(0,0,0,0);
+    
     text-decoration:none;
     box-shadow: 3px 6px 3px rgba(102, 109, 110, 0.147);
     transition: 0.2s ease;
@@ -66,6 +88,13 @@
     object-fit:cover;
     border-radius: 10px;
 }
+.deco{
+    position:absolute;
+    z-index:3;
+    margin-top:-470px;
+    margin-left:470px;
+
+}
 .badge {
     
     color: rgb(48, 49, 49);
@@ -76,22 +105,75 @@
     margin: 16px 0 18px;
     background:#f9fae1;
     width:fit-content;
+    margin-top:-10px;
     border-radius: 50px;
 }
+
+.card-button{
+    margin-top:20px;
+    height:30px;
+    width:120px;
+    margin-left:150px;
+    border-radius:12px;
+    background:#f9fae1;
+    font-family:'Dandan';
+    font-size:large;
+    transition:0.3s ease;
+}
+.card-button:hover{
+    transform:translateY(-3px);
+    box-shadow: 3px 6px 3px rgba(102, 109, 110, 0.147);
+}
 .card-title {
+    margin-top:20px;
+    text-align:center;
+    border-radius: 5px;
     font-size: 1.19rem;
     color:#333;
-    font-family:'Nanum';
+    font-family:'Inter';
     font-weight: 600;
 }
+#badgeText{
+    font-family:'Summer';
+    color:black;
+    font-size:small;
 
+
+}
+.announce{
+    margin-top:30vh;
+    width:80vw;
+    border-radius:12px;
+    margin-left:10vw;
+    height:46vh;
+    z-index:1;
+    line-height: 35px;
+    background:#aaab8c;
+    text-align:center;
+    justify-content:center;
+    font-family:'Dandan';
+    font-size:15px;
+}
+.dummy{
+    width:100%;
+    height:120vh;
+    position:absolute;
+    z-index:10;
+    background-color:#f9fae1;
+    margin-top:-630px;
+
+}
 #space {
     width:100%;
     height:460px;
     background-color:#f9fae1;
 }
 
+.swiper{
+    --swiper-navigation-color:#696a4c;
+    --swiper-pagination-color:#696a4c;
 
+}
 .container {
   text-align: center;
   background-color:#f9fae1;
