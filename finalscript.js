@@ -121,7 +121,8 @@ function changeToEng() {
         var mask = document.getElementById('title-mask');
         var java = document.getElementById('title-java');
         var article = document.getElementById('see-article');
-
+        var shadow = document.getElementById('title-shadow');
+        shadow.innerHTML = "Shadow Game";
 
         var elms = document.querySelectorAll("[id='game']");
         for (var i = 0; i < elms.length; i++)
