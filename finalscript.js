@@ -70,7 +70,7 @@ function changeToKor() {
         var language = document.getElementById('language');
         var values = document.getElementById('values');
 
-        values.innerHTML = '중요하게 여기는 가치 !';
+        values.innerHTML = '중요하게 여기는 가치들 !';
         language.innerHTML = '<br>✦한국어(모국어) ✦영어(능숙함) ✦일본어(기초)';
         languages.innerHTML = '언어';
 
@@ -103,6 +103,13 @@ function changeToKor() {
 
         heading2.style.lineHeight = "1.3";
         heading3.style.lineHeight = "1.3";
+        languages.style.fontFamily = "YooBin";
+        skill.style.fontFamily = "YooBin";
+        language.style.fontFamily = "YooBin";
+        language.style.fontSize = "38px";
+        values.style.fontFamily = "Dandan";
+        values.style.fontSize = "46px";
+        values.style.left = "58vw";
     }
 }
 function changeToEng() {
@@ -199,6 +206,13 @@ function changeToEng() {
 
         heading2.style.lineHeight = "1.1";
         heading3.style.lineHeight = "1.1";
+        languages.style.fontFamily = "Inter";
+        skill.style.fontFamily = "Inter";
+        language.style.fontFamily = "Inter";
+        language.style.fontSize = "32px";
+        values.style.fontFamily = "Dandan";
+        values.style.eft = "64vw";
+        values.style.fontSize = "55px";
     }
 }
 

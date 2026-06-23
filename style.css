@@ -205,12 +205,13 @@ body {
     margin-top: 220px;
 }
 #values {
+
     top:2300px;
     font-family: 'Dandan';
     position:absolute;
     color:#f9fae1;
     font-size:50px;
-    left:66vw;
+    left:64vw;
 }
 #boundary {
     overflow:hidden;
