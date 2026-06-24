@@ -38,7 +38,6 @@
 * {
     margin:0;
     padding:0;
-    
 }
 .projectText{
     text-align:center;
@@ -119,12 +118,11 @@ text {
     object-fit:cover;
     border-radius: 5px;
 }
-.deco{
-    position:absolute;
+#deco{
     z-index:3;
-    margin-top:-470px;
-    margin-left:470px;
-
+    position:absolute;
+    margin-top:30px;
+    left:-82px;
 }
 .badge {
     
@@ -166,11 +164,7 @@ text {
     font-family:'InterClean';
     font-weight: 600;
 }
-#badgeText{
-    font-family:'Summer';
-    color:black;
-    font-size:small;
-}
+
 .announce{
     margin-top:30vh;
     width:80vw;
