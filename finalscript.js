@@ -27,7 +27,7 @@ function changeToKor() {
         conferenceTitle.innerHTML = 'LightsUp 학회';
         mask.innerHTML = '가면 제작 가게';
         java.innerHTML = '자바 게임';
-        shadow.innerHTML = 'Shadow 게임';
+        shadow.innerHTML = 'Shadow 프로젝트';
         article.innerHTML = '기사 보기';
 
 
@@ -111,9 +111,10 @@ function changeToEng() {
         var java = document.getElementById('title-java');
         var article = document.getElementById('see-article');
         var shadow = document.getElementById('title-shadow');
-        shadow.innerHTML = "Shadow Game";
+        shadow.innerHTML = "Shadow Project";
 
         var mores = document.querySelectorAll("[id = 'more-here']");
+        
         for (var i = 0; i < mores.length; i++)
             mores[i].innerHTML = "more here";
 

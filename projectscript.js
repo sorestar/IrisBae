@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
 })();
 new Swiper('.card-wrapper', {
     loop: true,
-    initialSlide: 1,
+    initialSlide: 3,
 
     on: {
         init: updateText, resize,
