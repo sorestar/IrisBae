@@ -82,11 +82,12 @@ function updateText() {
     const lang = localStorage.getItem("lang") || "eng";
     let captions;
     if(lang == "eng"){
-
+        console.log("eng");
      captions = ['', 'this is my wacky java game.', 'this is a mask thing', 'this is my shadow', "Co-coordinator of the LightsUp Conference<br> held by the Sustainable Energy Club at Purdue University<br>"
         + "Focus on Outreach & VR Room<br>"];
     }
     else{
+        console.log("kor");
          captions = ['', '자바게임.', '마스크 뭐시기', '그림자',"학회"];
     }
     document.querySelector('.projectText').innerHTML = captions[this.realIndex + 1];
@@ -121,11 +122,3 @@ function resize() {
     }
 }
 window.onresize = resize();
-/*
-const width = window.innerWidth;
-    if(width < 760) {
-        const cardList = document.querySelector('.card-list');
-        cardList.style.marginLeft = "18vw";
-        console.log("did");
-    }
-    */

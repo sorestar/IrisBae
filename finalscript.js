@@ -7,31 +7,15 @@ function changeToKor() {
         var contact = document.getElementById('contact');
 
         var mainProjects = document.getElementById('mainProjects');
-        var conference = document.getElementById('conference');
         var conferenceTitle = document.getElementById('title-conference');
         var mask = document.getElementById('title-mask');
         var java = document.getElementById('title-java');
         var shadow = document.getElementById('title-shadow');
         var article = document.getElementById('see-article');
 
-
-        var elms = document.querySelectorAll("[id='game']");
-        for (var i = 0; i < elms.length; i++)
-            elms[i].innerHTML = "게임";
-
         var mores = document.querySelectorAll("[id = 'more-here']");
         for (var i = 0; i < mores.length; i++)
             mores[i].innerHTML = "더보기";
-
-
-        var comment = document.getElementById('comment');
-        var about = document.getElementById('about');
-        var project = document.getElementById('project');
-        var contact = document.getElementById('contact');
-        var heading1 = document.getElementById('heading1');
-        var heading2 = document.getElementById('heading2');
-        var heading3 = document.getElementById('heading3');
-        var navbar = document.getElementById('navbar .a');
 
 
         comment.innerHTML = '댓글';
@@ -40,7 +24,6 @@ function changeToKor() {
         contact.innerHTML = '연락링크';
 
         mainProjects.innerHTML = '주요 활동들';
-        conference.innerHTML = '학회';
         conferenceTitle.innerHTML = 'LightsUp 학회';
         mask.innerHTML = '가면 제작 가게';
         java.innerHTML = '자바 게임';
@@ -123,7 +106,6 @@ function changeToEng() {
 
 
         var mainProjects = document.getElementById('mainProjects');
-        var conference = document.getElementById('conference');
         var conferenceTitle = document.getElementById('title-conference');
         var mask = document.getElementById('title-mask');
         var java = document.getElementById('title-java');
@@ -131,16 +113,11 @@ function changeToEng() {
         var shadow = document.getElementById('title-shadow');
         shadow.innerHTML = "Shadow Game";
 
-        var elms = document.querySelectorAll("[id='game']");
-        for (var i = 0; i < elms.length; i++)
-            elms[i].innerHTML = "Game";
-
         var mores = document.querySelectorAll("[id = 'more-here']");
         for (var i = 0; i < mores.length; i++)
             mores[i].innerHTML = "more here";
 
         mainProjects.innerHTML = 'Main Projects';
-        conference.innerHTML = 'conference';
         conferenceTitle.innerHTML = 'LightsUp Conference';
         mask.innerHTML = 'Mask Making Store';
         java.innerHTML = 'Java Game';

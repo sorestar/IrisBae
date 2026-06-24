@@ -99,6 +99,13 @@ text {
     border: 3px solid rgba(0, 0, 0, 0.346);
     
 }
+.surround{
+    background-image:url("images/surround.jpg");
+    position:absolute;
+    background-size:cover;
+    z-index:3;
+    margin-top:-100px;
+}
 .card-image {
     width:100%;
     border:6px solid rgba(102, 109, 110, 0.147);
