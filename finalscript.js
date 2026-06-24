@@ -114,7 +114,7 @@ function changeToEng() {
         shadow.innerHTML = "Shadow Project";
 
         var mores = document.querySelectorAll("[id = 'more-here']");
-        
+
         for (var i = 0; i < mores.length; i++)
             mores[i].innerHTML = "more here";
 

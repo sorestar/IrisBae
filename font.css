@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Peace';
+    src: url('fonts/PyeongChangPeace-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PeaceBold';
+    src: url('fonts/PyeongChangPeace-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Dandan';
+    src: url('fonts/OkDanDan-Bold.ttf');
+}
+@font-face {
+    font-family: 'Nanum';
+    src: url('fonts/NanumPen.ttf');
+}
+@font-face {
+    font-family: 'YooBin';
+    src:url('fonts/KyoboHandwriting2025lyb.ttf');
+}
+@font-face {
+    font-family: 'Summer';
+    src: url('fonts/HSBombaram3.0_Regular.ttf');
+}
+@font-face {
+    font-family: 'InterClean';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+@font-face{
+    font-family: 'InterItalic';
+    src: url('fonts/Inter-Italic-VariableFont_opsz\,wght.ttf');
+}
+@font-face {
+    font-family: 'SamR';
+    src: url('fonts/SamReg.ttf');
+}

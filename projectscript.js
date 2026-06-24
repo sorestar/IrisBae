@@ -69,26 +69,26 @@ new Swiper('.card-wrapper', {
         },
     }
 });
- document.getElementById("korButton").addEventListener('click', () => {
-        window.location.reload();
-    });
+document.getElementById("korButton").addEventListener('click', () => {
+    window.location.reload();
+});
 
-     document.getElementById("engButton").addEventListener('click', () => {
-        window.location.reload();
-    });
+document.getElementById("engButton").addEventListener('click', () => {
+    window.location.reload();
+});
 
 
 function updateText() {
     const lang = localStorage.getItem("lang") || "eng";
     let captions;
-    if(lang == "eng"){
+    if (lang == "eng") {
         console.log("eng");
-     captions = ['', 'this is my wacky java game.', 'this is a mask thing', 'this is my shadow', "Co-coordinator of the LightsUp Conference<br> held by the Sustainable Energy Club at Purdue University<br>"
-        + "Focus on Outreach & VR Room<br>"];
+        captions = ['', 'this is my wacky java game.', 'this is a mask thing', 'this is my shadow', "Co-coordinator of the LightsUp Conference<br> held by the Sustainable Energy Club at Purdue University<br>"
+            + "Focus on Outreach & VR Room<br>"];
     }
-    else{
+    else {
         console.log("kor");
-         captions = ['', '자바게임.', '마스크 뭐시기', '그림자',"학회"];
+        captions = ['', '자바게임.', '마스크 뭐시기', '그림자', "학회"];
     }
     document.querySelector('.projectText').innerHTML = captions[this.realIndex + 1];
 }
