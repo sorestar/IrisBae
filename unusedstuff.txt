@@ -156,7 +156,23 @@ background-color: #466e4799;
     color: rgb(252, 240, 225);
 }
 
+    <div class="dummy">
 
+        <div class="announce">
+            <br><br>hi!<br> Unfortunately, the technique I've used for the sliders<br> does not work properly when
+            <br>the width of the screen is too small. <br>
+            However, you are able to check my projects on a desktop!<br>
+            Thanks for the understanding ૮₍ ´ ꒳ `₎ა
+        </div>
+
+    </div>
+        dummy.style.height = '120vh';
+        announce.style.height = '46vh';
+        announce.style.fontSize = '15px';
+        
+        dummy.style.height = '0px';
+        announce.style.height = '0px';
+        announce.style.fontSize = '0px';
 
 
     <div id="navbar" class="topnav">

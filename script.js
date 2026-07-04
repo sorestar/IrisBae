@@ -7,10 +7,10 @@
 
 const boundary = document.getElementById('boundary');
 const squares = [
-  { x: 76, y: 710, bg: '#CECBF6', bgi: "url('images/coding.jpg')", fg: '#3C3489' },
-  { x: 60, y: 430, bg: '#dae19f', fg: '#595c31', bgi: "url('images/conference.jpg')" },
-  { x: 70, y: 550, bg: '#9FE1CB', fg: '#085041', bgi: "url('images/crochet.jpg')" },
-  { x: 49, y: 680, bg: '#dae19f', fg: '#595c31', bgi: "url('images/gameideas.jpg')" },
+  { x: 76, y: 710, bg: '#CECBF6', bgi: "url('images/coding.png')", fg: '#3C3489' },
+  { x: 60, y: 430, bg: '#dae19f', fg: '#595c31', bgi: "url('images/conference.png')" },
+  { x: 70, y: 550, bg: '#9FE1CB', fg: '#085041', bgi: "url('images/crochet.png')" },
+  { x: 49, y: 680, bg: '#dae19f', fg: '#595c31', bgi: "url('images/gameideas.png')" },
 ];
 let selected = null;
 let dragging = false;
